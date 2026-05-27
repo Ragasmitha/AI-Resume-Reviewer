@@ -31,7 +31,7 @@ function App() {
 
     try {
       const res = await axios.post(
-        "http://localhost:3001/analyze",
+        "https://ai-resume-reviewer-zryl.onrender.com/analyze",
         formData
       );
 
